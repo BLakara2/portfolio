@@ -1,0 +1,76 @@
+<!-- Remplace l'article "projets" dans index.html par ce bloc -->
+
+<article class="projets" data-page="projets">
+  <header>
+    <h2 class="h2 article-title">Mes Projets Personnels</h2>
+  </header>
+  <section class="projects">
+
+    <!-- Filtre (optionnel, à activer si vous ajoutez data-filter-item) -->
+    <ul class="filter-list" style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px; list-style:none; padding:0;">
+      <li><button class="filter-btn active" data-filter-btn>Tous</button></li>
+      <li><button class="filter-btn" data-filter-btn>Web</button></li>
+      <li><button class="filter-btn" data-filter-btn>Mobile</button></li>
+      <li><button class="filter-btn" data-filter-btn>Backend</button></li>
+    </ul>
+
+    <!-- Grille de projets -->
+    <ul class="project-list" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:20px; padding:0; list-style:none;">
+
+      <!-- PROJET 1 — Remplace href, l'image src et les textes -->
+      <li class="project-item active" data-filter-item data-category="web">
+        <a href="https://github.com/Lakara2/mon-projet-1" target="_blank" rel="noopener" class="project-link"
+           style="display:block; border-radius:14px; overflow:hidden; background:var(--border-gradient-onyx); transition:transform 0.3s, box-shadow 0.3s;">
+          <figure style="margin:0; aspect-ratio:16/9; overflow:hidden;">
+            <img src="./assets/images/project-1.jpg" alt="Projet 1" loading="lazy"
+                 style="width:100%; height:100%; object-fit:cover; transition:transform 0.4s;">
+          </figure>
+          <div style="padding:16px;">
+            <span style="font-size:12px; color:var(--vegas-gold); text-transform:uppercase; letter-spacing:1px;">Web</span>
+            <h3 style="font-size:15px; margin:6px 0 4px; color:var(--white-2);">Nom du Projet 1</h3>
+            <p style="font-size:13px; color:var(--light-gray-70); margin:0;">Courte description du projet.</p>
+          </div>
+        </a>
+      </li>
+
+      <!-- PROJET 2 -->
+      <li class="project-item active" data-filter-item data-category="backend">
+        <a href="https://github.com/Lakara2/mon-projet-2" target="_blank" rel="noopener" class="project-link"
+           style="display:block; border-radius:14px; overflow:hidden; background:var(--border-gradient-onyx); transition:transform 0.3s, box-shadow 0.3s;">
+          <figure style="margin:0; aspect-ratio:16/9; overflow:hidden;">
+            <img src="./assets/images/project-2.jpg" alt="Projet 2" loading="lazy"
+                 style="width:100%; height:100%; object-fit:cover; transition:transform 0.4s;">
+          </figure>
+          <div style="padding:16px;">
+            <span style="font-size:12px; color:var(--vegas-gold); text-transform:uppercase; letter-spacing:1px;">Backend</span>
+            <h3 style="font-size:15px; margin:6px 0 4px; color:var(--white-2);">Gestion Matériel OTME</h3>
+            <p style="font-size:13px; color:var(--light-gray-70); margin:0;">Application de gestion de matériel militaire (MongoDB, ExpressJS).</p>
+          </div>
+        </a>
+      </li>
+
+      <!-- PROJET 3 -->
+      <li class="project-item active" data-filter-item data-category="web">
+        <a href="https://github.com/Lakara2" target="_blank" rel="noopener" class="project-link"
+           style="display:block; border-radius:14px; overflow:hidden; background:var(--border-gradient-onyx); transition:transform 0.3s, box-shadow 0.3s;">
+          <figure style="margin:0; aspect-ratio:16/9; overflow:hidden; background:var(--onyx); display:flex; align-items:center; justify-content:center;">
+            <ion-icon name="code-slash-outline" style="font-size:48px; color:var(--vegas-gold);"></ion-icon>
+          </figure>
+          <div style="padding:16px;">
+            <span style="font-size:12px; color:var(--vegas-gold); text-transform:uppercase; letter-spacing:1px;">Web</span>
+            <h3 style="font-size:15px; margin:6px 0 4px; color:var(--white-2);">Voir mes repos GitHub →</h3>
+            <p style="font-size:13px; color:var(--light-gray-70); margin:0;">Retrouvez tous mes projets sur GitHub.</p>
+          </div>
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- Style hover pour les cartes -->
+    <style>
+      .project-link:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.4); }
+      .project-link:hover img { transform: scale(1.05); }
+    </style>
+
+  </section>
+</article>
