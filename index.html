@@ -583,6 +583,29 @@
         </div>
     </main>
 
+    <!-- Theme Picker -->
+    <div id="theme-picker" style="
+    position: fixed;
+    bottom: 80px;
+    right: 15px;
+    z-index: 100;
+    ">
+    <button id="theme-btn" title="Changer la couleur" style="
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: hsl(45, 100%, 72%);
+        border: 2px solid rgba(255,255,255,0.3);
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        transition: transform 0.2s;
+    "
+    onmouseover="this.style.transform='scale(1.15)'"
+    onmouseout="this.style.transform='scale(1)'">
+    </button>
+    <input type="color" id="color-input" value="#ffb703" style="display:none">
+
+    </div>
     <script>
         'use strict';
 
