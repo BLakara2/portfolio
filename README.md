@@ -13,10 +13,10 @@ Il présente mon parcours, mes expériences professionnelles, mes compétences e
 
 ## Stack technique
 
-- HTML5, CSS3, JavaScript
-- React / React Native
-- Node.js, Express.js, MongoDB
-- Shopify (thèmes, e-commerce)
+- HTML5, CSS3, JavaScript, React
+- Node.js, Express.js, MongoDB, Python
+- React Native, Flutter (mobile multiplateforme)
+- Shopify, Liquid (thèmes, e-commerce)
 - Git & GitHub
 
 ## Lancer le projet en local
