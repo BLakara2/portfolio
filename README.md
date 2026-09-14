@@ -1,31 +1,53 @@
-# ⚔️ **Mon Portfolio** ⚔️
+# Bryan Lakara — Portfolio
 
-Bienvenue sur mon portfolio ! 🎮
+Portfolio personnel de **Bryan Lakara**, développeur web spécialisé en développement front-end et e-commerce (Shopify).
 
-Ce projet me représente :
-1. 🛡️ **Qui je suis**
-2. 🗡️ **Ce que je fais**
-3. ⚙️ **Comment j'ai fait**
+Il présente mon parcours, mes expériences professionnelles, mes compétences et une sélection de projets personnels.
 
-Un petit résumé d'une vie, mais bien fait et épique. 💥
+## Aperçu
+
+- **Qui suis-je** — présentation et objectifs professionnels
+- **Parcours** — formation académique, de la Haute École d'Informatique (HEI Madagascar)
+- **Expérience** — stages et poste actuel : développeur junior chez ISA Outsourcing (évolution depuis un stage initial)
+- **Projets** — applications web, e-commerce, jeux et outils : MotoMarket, gestion de matériel OTME, jeu de Faritany, convertisseur de monnaie, gestion d'emploi du temps, chat IA
+
+## Stack technique
+
+- HTML5, CSS3, JavaScript
+- React / React Native
+- Node.js, Express.js, MongoDB
+- Shopify (thèmes, e-commerce)
+- Git & GitHub
+
+## Lancer le projet en local
+
+Aucune dépendance ni build requis — site statique.
+
+```bash
+git clone https://github.com/BLakara2/portfolio.git
+cd portfolio
+# ouvrir index.html dans un navigateur,
+# ou servir le dossier :
+npx serve .
+```
+
+## Structure
+
+```
+portfolio/
+├── index.html
+└── assets/
+    ├── css/
+    ├── js/
+    └── images/
+```
+
+## Contact
+
+- **Email :** lakarabryan@gmail.com
+- **Téléphone :** +261 383 417 317
+- **GitHub :** https://github.com/BLakara2
+- **Localisation :** Antananarivo, Madagascar
 
 ---
-
-## 📜 **Aperçu** 📜
-
-À l'intérieur, vous y trouverez :
-- 📱 **Mes contacts**
-- 🏆 **Un résumé du parcours que j'ai accompli jusqu'ici**
-- 🔍 **Et bien évidemment, tout ce qu'il y a à savoir à propos de moi**
-
-J'espère que ce portfolio vous aidera, ou du moins, vous inspirera à rejoindre l'aventure. 🚀
-
----
-
-# 💥 **MERCI A TOUS !** 💥
-
-🙏 Un grand merci à tous ceux qui m'ont soutenu dans cette aventure ! Vous êtes mes alliés dans cette quête ! ⚔️
-
----
-**[⚔️ Rejoignez l'aventure !](#)** 🔗
-
+© Bryan Lakara — Tous droits réservés.
